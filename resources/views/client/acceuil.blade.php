@@ -4,7 +4,7 @@
 
 @section('content')
 <h2>Listes des categories</h2>
-<ul>
+<ul class="item-a">
     @foreach ($categories as $item)
     <li>
         {{$item->nom}}
